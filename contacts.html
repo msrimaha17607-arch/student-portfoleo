@@ -1,0 +1,141 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact Me | Srimahalakshmi</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="index.html" class="logo">S<span>.</span></a>
+
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="skills.html">Skills</a>
+            <a href="projects.html">Projects</a>
+            <a href="achievements.html">Achievements</a>
+            <a href="contacts.html" class="active">Contact</a>
+        </nav>
+    </header>
+
+    <main class="page-container">
+
+        <div class="page-heading">
+            <p class="welcome">LET'S CONNECT</p>
+            <h1>Contact <span>Me</span></h1>
+            <p>Have a project idea or an opportunity? Let's connect!</p>
+        </div>
+
+        <section class="contact-layout">
+
+            <div class="contact-info">
+
+                <h2>Get In Touch</h2>
+
+                <p>
+                    I am interested in learning, collaborating on projects,
+                    and exploring opportunities to improve my technical skills.
+                </p>
+
+                <div class="contact-item">
+                    <div class="contact-icon">🎓</div>
+                    <div>
+                        <h3>Education</h3>
+                        <p>KG College of Arts and Science</p>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <div class="contact-icon">💻</div>
+                    <div>
+                        <h3>Interest</h3>
+                        <p>Web Development & Programming</p>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <div class="contact-icon">🤝</div>
+                    <div>
+                        <h3>Open To</h3>
+                        <p>Learning and Project Collaboration</p>
+                    </div>
+                </div>
+
+                <p class="contact-note">
+                    Add your professional email and LinkedIn profile
+                    to make it easier for visitors to contact you.
+                </p>
+
+                <div class="contact-links">
+                    <!-- Replace # with your actual LinkedIn profile URL. -->
+                    <a href="#" class="btn btn-outline" id="linkedinLink">
+                        LinkedIn Profile
+                    </a>
+                </div>
+
+            </div>
+
+            <form class="contact-form" id="contactForm">
+
+                <h2>Send a Message</h2>
+
+                <label for="name">Your Name</label>
+                <input
+                    type="text"
+                    id="name"
+                    placeholder="Enter your name"
+                    required
+                >
+
+                <label for="email">Your Email</label>
+                <input
+                    type="email"
+                    id="email"
+                    placeholder="Enter your email"
+                    required
+                >
+
+                <label for="subject">Subject</label>
+                <input
+                    type="text"
+                    id="subject"
+                    placeholder="Enter the subject"
+                    required
+                >
+
+                <label for="message">Your Message</label>
+                <textarea
+                    id="message"
+                    rows="4"
+                    placeholder="Write your message..."
+                    required
+                ></textarea>
+
+                <button type="submit" class="btn">
+                    Prepare Email Message →
+                </button>
+
+                <p class="form-note" id="formMessage" aria-live="polite"></p>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <p>© 2026 Srimahalakshmi | Designed with 💜 and Code</p>
+    </footer>
+
+</body>
+</html>
+
